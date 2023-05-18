@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     background-position: 800px;
     background-size: 650px;
+    z-index: 20000;
 }
 
 
@@ -63,22 +64,29 @@
 }
 
 .second-box {
-    position: absolute;
+    
+    position:static;
     top: 40%;
     left: 8%;
     color: white;
     font-size: 30px;
     align-items: center;
-    line-height: 80px;
+    
     
     }
 
 h1 span {
-    padding-left: 145px;
+    padding-left: 210px;
+    
 }
 
 .span1 {
-    padding-left: 135px;
+    padding-top: 300px;
+    padding-left: 200px;
+}
+
+.span2 {
+ padding-left: 50px;
 }
 
 .second-box h3 {
